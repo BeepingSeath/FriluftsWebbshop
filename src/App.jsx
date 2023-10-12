@@ -1,4 +1,6 @@
 import './App.css'
+import Card from './components/card.jsx'
+
 
 function App() {
 
@@ -19,7 +21,7 @@ function App() {
         </div>
       </header>
       <div>
-
+        <Card />
       </div>
     </>
   )
