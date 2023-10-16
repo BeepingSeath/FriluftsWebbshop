@@ -15,8 +15,8 @@ function App() {
         <div className='hero'>
           <div className='callToAction'>
             <div className='filter'></div>
-            <h1>VÄLKOMMEN</h1>
-            <h2>Kolla på årets höstsortiment!</h2>
+            <h1>Welcome!</h1>
+            <h2>Check out our fall selection</h2>
           </div>
         </div>
       </header>
