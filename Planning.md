@@ -1,12 +1,11 @@
 Todos:
 
-Card Component {
-    Content Layout
-    Colors
-    Fluid
+Make Hero look presentable with better size ~
+Add cards
+Make Footer {
+    Structure content
+    Give color
 }
-
-
 
 
 

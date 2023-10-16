@@ -14,7 +14,7 @@ function Card() {
             <div className='cardBox'>
                 <h1>{Name}</h1>
                 <img src={image} alt={imageAlt} className='cardImg' />
-                <h2>{Price}</h2>
+                <h2>{Price} :-</h2>
                 <h3>{Categories}</h3>
                 <h3>{Colors}</h3>
             </div>

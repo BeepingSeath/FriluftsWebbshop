@@ -11,8 +11,8 @@ nav {
 
 .hero {
   background-image: url(./Hero.jpg);
-  background-size: cover;
   background-position: CENTER;
+  background-size: cover;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -26,8 +26,13 @@ nav {
   padding: 1rem;
   padding-right: 3rem;
   padding-left: 3rem;
-  margin-top: 15rem;
-  margin-bottom: 2rem;
+  margin-top: 30rem;
+  margin-bottom: 5rem;
   background-color: var(--Obg-color);
   border-radius: 1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }

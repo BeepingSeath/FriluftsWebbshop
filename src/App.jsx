@@ -20,8 +20,13 @@ function App() {
           </div>
         </div>
       </header>
-      <div>
-        <Card />
+      <div className='cards'>
+        {Array(6)
+          .fill(true)
+          .map((index) => (
+            <Card key={index} />
+          ))
+        }
       </div>
     </>
   )
