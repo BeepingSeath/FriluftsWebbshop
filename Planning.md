@@ -1,7 +1,6 @@
 Todos:
 
-Make Hero look presentable with better size ~
-Add cards
+
 Make Footer {
     Structure content
     Give color

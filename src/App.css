@@ -34,5 +34,13 @@ nav {
 
 .cards {
   display: grid;
+  width: 60%;
+  column-gap: 10rem;
   grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
 }

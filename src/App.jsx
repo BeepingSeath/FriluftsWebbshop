@@ -20,13 +20,15 @@ function App() {
           </div>
         </div>
       </header>
-      <div className='cards'>
-        {Array(6)
-          .fill(true)
-          .map((index) => (
-            <Card key={index} />
-          ))
-        }
+      <div className='cardsContainer'>
+        <div className='cards'>
+          {Array(6)
+            .fill(true)
+            .map((index) => (
+              <Card key={index} />
+            ))
+          }
+        </div>
       </div>
     </>
   )
