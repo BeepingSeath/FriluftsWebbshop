@@ -1,10 +1,9 @@
 Todos:
 
 
-Make Footer {
-    Structure content
-    Give color
-}
+Footer a positioning
+A full header
+Category page start
 
 
 
