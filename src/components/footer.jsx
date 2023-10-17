@@ -11,9 +11,9 @@ function Footer() {
     return (
         <>
             <div className='footer'>
-                <h1 className='contactHeader'>
+                <h2 className='contactHeader'>
                     Contact Information
-                </h1>
+                </h2>
                 <div className='infoPositions'>
                     <div className='contactInfo'>
                         <p>{companyName}</p>

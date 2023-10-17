@@ -12,11 +12,11 @@ function Card() {
     return (
         <>
             <div className='cardBox'>
-                <h1>{Name}</h1>
+                <h2>{Name}</h2>
                 <img src={image} alt={imageAlt} className='cardImg' />
-                <h2>{Price} :-</h2>
-                <h3>{Categories}</h3>
-                <h3>{Colors}</h3>
+                <h3>{Price} :-</h3>
+                <h4>{Categories}</h4>
+                <h4>{Colors}</h4>
             </div>
         </>
     )

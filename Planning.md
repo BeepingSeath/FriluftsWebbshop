@@ -1,7 +1,7 @@
 Todos:
 
 
-Footer a positioning
+Footer a positioning ....
 A full header
 Category page start
 
