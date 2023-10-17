@@ -1,0 +1,20 @@
+.footer {
+    background-color: var(--darker-black);
+    padding: 1rem;
+}
+
+.contactInfo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+}
+
+.infoPositions {
+    display: flex;
+    justify-content: center;
+}
+
+.contactHeader {
+    display: flex;
+    justify-content: center;
+}
