@@ -15,6 +15,11 @@ nav {
   margin: 1rem;
 }
 
+.material-symbols-outlined:hover {
+  color: #f1f1f1;
+  text-decoration: underline;
+}
+
 .hero {
   background-image: url(./Hero.jpg);
   background-position: CENTER;

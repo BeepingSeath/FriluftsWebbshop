@@ -2,8 +2,8 @@ Todos:
 
 
 Footer a positioning ....
-A full header
-Category page start
+A full header ....
+clickable buttons in header ....
 
 
 
