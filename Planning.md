@@ -1,10 +1,9 @@
 Todos:
 
 
-Footer a positioning ....
-A full header ....
-clickable buttons in header ....
-
+Make nav into component ....
+Make template for category page
+Work in cards
 
 
 Extra: 

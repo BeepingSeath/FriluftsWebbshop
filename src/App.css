@@ -3,23 +3,6 @@ header {
   width: 100%;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--primary-color);
-  align-items: center;
-}
-
-.material-symbols-outlined {
-  font-size: var(--step-4);
-  margin: 1rem;
-}
-
-.material-symbols-outlined:hover {
-  color: #f1f1f1;
-  text-decoration: underline;
-}
-
 .hero {
   background-image: url(./Hero.jpg);
   background-position: CENTER;

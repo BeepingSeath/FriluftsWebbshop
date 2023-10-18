@@ -1,6 +1,7 @@
 import './App.css'
 import Card from './components/card.jsx'
 import Footer from './components/footer.jsx'
+import Navbar from './components/navbar.jsx'
 
 
 function App() {
@@ -8,16 +9,7 @@ function App() {
   return (
     <>
       <header>
-        <nav>
-          <a href="./menu"><span className="material-symbols-outlined"> menu </span></a>
-          <h1>
-            JOYCAMP
-          </h1>
-          <div>
-            <a href="./search"><span className="material-symbols-outlined"> search </span></a>
-            <a href="./cart"><span className="material-symbols-outlined"> shopping_cart </span></a>
-          </div>
-        </nav>
+        <Navbar />
         <div className='hero'>
           <div className='callToAction'>
             <div className='filter'></div>
