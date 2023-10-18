@@ -1,7 +1,7 @@
 Todos:
 
 
-Make nav into component ....
+Make Database connection
 Make template for category page
 Work in cards
 
