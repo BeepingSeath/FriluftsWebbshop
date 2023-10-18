@@ -5,8 +5,14 @@ header {
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   background-color: var(--primary-color);
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  font-size: var(--step-4);
+  margin: 1rem;
 }
 
 .hero {

@@ -9,9 +9,11 @@ function App() {
     <>
       <header>
         <nav>
+          <span className="material-symbols-outlined"> menu </span>
           <h1>
             JOYCAMP
           </h1>
+          <span className="material-symbols-outlined"> shopping_cart </span>
         </nav>
         <div className='hero'>
           <div className='callToAction'>
