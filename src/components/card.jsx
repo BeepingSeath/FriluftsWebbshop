@@ -2,6 +2,8 @@ import './card.css'
 
 function Card() {
 
+
+
     let Name = "Kiikii Original"
     let Price = "699"
     let Categories = "Comfy, Shirt"
