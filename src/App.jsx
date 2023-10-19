@@ -2,10 +2,20 @@ import './App.css'
 import Card from './components/card.jsx'
 import Footer from './components/footer.jsx'
 import Navbar from './components/navbar.jsx'
+//import { ProductList } from './ProductList.jsx'
+
+import { useState, useEffect } from "react"
 
 
 function App() {
+  const [products, setProducts] = useState([])
 
+  useEffect(() => {
+    fetch('http://localhost:3000/product')
+      .then((res) => res.json())
+      .then((json) => setProducts(json.data))
+  }, [])
+  console.log(products)
   return (
     <>
       <header>
@@ -20,11 +30,9 @@ function App() {
       </header>
       <div className='cardsContainer'>
         <div className='cards'>
-          {Array(6)
-            .fill(true)
-            .map((index) => (
-              <Card key={index} />
-            ))
+          {products && products.map((product, index) => (
+            <Card key={index} product={product} />
+          ))
           }
         </div>
       </div>
