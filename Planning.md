@@ -1,9 +1,11 @@
 Todos:
 
 
-Make Database connection
-Make template for category page
-Work in cards
+Hero transition
+Card redesign {
+    Image size
+    Same look for the cards
+}
 
 
 Extra: 
